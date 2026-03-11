@@ -10,6 +10,8 @@ A hands-on learning repository for exploring **LangChain** — from basic concep
 | 02 | [Model Integration](learing_notes/langchain-02(Modeal-intergation).ipynb) | Integrating multiple LLM providers — **Google Gemini** and **Groq** — via LangChain's unified interface |
 | 03 | [Tools](learing_notes/langchain-03(Tools).ipynb) | Defining custom tools with `@tool`, binding them to models, and implementing **tool execution loops** |
 | 04 | [Messages](learing_notes/langchain-04(messages).ipynb) | Understanding LangChain's message types and conversation patterns |
+| 05 | [Structured Output](learing_notes/langchain-05(structured-output).ipynb) | Forcing LLMs to return structured data like JSON using Pydantic, TypedDict, and dataclasses |
+| 06 | [Middleware](learing_notes/langchain-06(Middleware).ipynb) | Understanding and implementing middlewares in LangChain |
 
 ## 🛠️ Tech Stack
 
@@ -58,7 +60,9 @@ Langchain101/
 │   ├── langchain-01(intro).ipynb
 │   ├── langchain-02(Modeal-intergation).ipynb
 │   ├── langchain-03(Tools).ipynb
-│   └── langchain-04(messages).ipynb
+│   ├── langchain-04(messages).ipynb
+│   ├── langchain-05(structured-output).ipynb
+│   └── langchain-06(Middleware).ipynb
 ├── main.py
 ├── pyproject.toml
 ├── requirements.txt
